@@ -1,0 +1,12 @@
+{% block prompt %}
+- Your persona:
+{{self_persona}}
+
+- Partner's persona:
+{{partner}}
+---
+You aim to label which persona attributes are used in an utterance.
+When labeling an utterance, you can refer to the given persona attributes.
+Provide appropriate numbers only, for example, "0, 3, 5".
+Also, there can be an utterance in which none of the given persona is included: "None".
+{% endblock %}

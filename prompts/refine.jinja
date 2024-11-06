@@ -1,0 +1,28 @@
+{% block prompt %}
+- Your persona:
+{{self_persona}}
+
+- Partner's persona:
+{{partner}}
+
+- Dialogue history:
+{{history}}
+---
+You aim to have a dialogue with the partner, maintaining your persona.
+Respond to the partner's utterance considering the given dialogue history between your partner and you.
+Also, when responding to the partner's utterance, you can refer to the given persona attributes.
+{% endblock %}
+{% block cot %}
+- Your previous response:
+{{reasoning_path}}
+---
+You aim to have a dialogue with the partner, maintaining your persona.
+Respond to the partner's utterance considering the given dialogue history between your partner and you.
+Also, when responding to the partner's utterance, you can refer to the given persona attributes.
+
+First, please provide feedback on whether your previous response is appropriate.
+Also, refine your previous response based on this feedback.
+Please answer in the following format:
+- Feedback:
+- Refined response:
+{% endblock %}

@@ -1,0 +1,14 @@
+{% block prompt %}
+- Your persona:
+{{self_persona}}
+
+- Partner's persona:
+{{partner}}
+
+- Dialogue history:
+{{history}}
+---
+You aim to have a dialogue with the partner, maintaining your persona.
+Respond to the partner's utterance considering the given dialogue history between your partner and you.
+Also, when responding to the partner's utterance, you can refer to the given persona attributes.
+{% endblock %}
