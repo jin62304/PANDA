@@ -90,5 +90,5 @@ $ bash scripts/run_eval.sh
 ```
 
 ### Misc.
-- In addition, our another paper [Where am I? Large Language Models Wandering between Semantics and Structures in Long Contexts](https://openreview.net/forum?id=pgc5Ye0Ti7), which was accepted to EMNLP 2024 Main, is also a recommended LLM probing paper. 
+- In addition, our another paper [Where am I? Large Language Models Wandering between Semantics and Structures in Long Contexts](https://openreview.net/forum?id=pgc5Ye0Ti7), which was accepted to EMNLP 2024 Main, is also a recommended LLM probing paper. 
 - This paper addresses the discrepancy between LLMs' different abilities: to answer in a QA task and to select evidence for their responses.
