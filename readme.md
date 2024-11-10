@@ -55,7 +55,7 @@ topcis = {
 --output_path: str  # to set output path manually 
 --api_key: str  # to provide api key manually (But, we recommend using "openai_api_key.txt" or the dotenv library.
 ```
-#### 0. 모델의 응답 생성
+#### 0. Model Response Generation
 - Before applying the **PANDA** framework, we generate LLM response in a persona-grounded dialogue generation task. 
 ```bash
 $ scripts/run_main.sh
