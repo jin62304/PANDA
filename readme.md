@@ -80,12 +80,21 @@ $ bash scripts/run_eval.sh
 
 ## 📖 Citation
 ```
-@inproceedings{kim2024panda,
-  title={{PANDA}: Persona Attributes Navigation for Detecting and Alleviating Overuse Problem in Large Language Models},
-  author={Kim, Jinsung and Koo, Seonmin and Lim, Heui-Seok},
-  booktitle={The 2024 Conference on Empirical Methods in Natural Language Processing},
-  year={2024},
-  url={https://openreview.net/forum?id=MhxzXcjTka}
+@inproceedings{kim-etal-2024-panda,
+    title = "{PANDA}: Persona Attributes Navigation for Detecting and Alleviating Overuse Problem in Large Language Models",
+    author = "Kim, Jinsung  and
+      Koo, Seonmin  and
+      Lim, Heuiseok",
+    editor = "Al-Onaizan, Yaser  and
+      Bansal, Mohit  and
+      Chen, Yun-Nung",
+    booktitle = "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+    month = nov,
+    year = "2024",
+    address = "Miami, Florida, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.emnlp-main.670",
+    pages = "12005--12026",
 }
 ```
 
