@@ -42,7 +42,7 @@ topcis = {
 - This framework consists of the following three multiple steps: 1) dialogue labeling, 2) persona-topic mapping, and 3) overuse measurement.
 - The current version is implemented with code for ChatGPT for testing. Refined code for utilization on other models will be further provided.
 #### Arguments
-```python
+```bash
 ## Not all arguments are mandatory. 
 --task: {'gen', 'ptag', 'ttag', 'eval'}  # mandatory, 'ptag': dialogue labeling, 'ttag': topic mapping, 'eval': measuring overuse
 --model_type: {'chatgpt'}  # mandatory
