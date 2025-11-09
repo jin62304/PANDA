@@ -1,7 +1,9 @@
-This is the official github repository for the paper: 🐼 [PANDA: Persona Attributes Navigation for Detecting and Alleviating Overuse Problem in Large Language Models](https://aclanthology.org/2024.emnlp-main.670/) (Accepted at EMNLP 2024 Main).
+This is the official GitHub repository for the paper: 🐼 [PANDA: Persona Attributes Navigation for Detecting and Alleviating Overuse Problem in Large Language Models](https://aclanthology.org/2024.emnlp-main.670/) (Accepted at EMNLP 2024 Main).
 
 *Jinsung Kim(\*), Seonmin Koo(\*), and Heuiseok Lim*</br>
 🏫 [NLP & AI Lab.](https://blpkorea.cafe24.com/wp/), Korea University, South Korea
+
+ → This paper addresses the *overuse* problem of large language models in persona-grounded dialogue by introducing **PANDA**, a framework that quantitatively defines, detects, and analyzes how LLMs excessively rely on persona attributes across multi-topic conversational contexts.
 
 ## 🛠️ Installation
 ```bash
@@ -99,5 +101,7 @@ $ bash scripts/run_eval.sh
 ```
 
 ### Misc.
-- In addition, our another paper [Where am I? Large Language Models Wandering between Semantics and Structures in Long Contexts](https://aclanthology.org/2024.emnlp-main.783/), which was accepted to EMNLP 2024 Main, is also a recommended LLM probing paper. 
+- My [Homepage](https://jin62304.github.io/)
+- My [LinkedIn](https://www.linkedin.com/in/jinsung-kim-703195178/)
+- In addition, our other paper [Where am I? Large Language Models Wandering between Semantics and Structures in Long Contexts](https://aclanthology.org/2024.emnlp-main.783/), which was accepted to EMNLP 2024 Main, is also a recommended LLM probing paper. 
 - This paper addresses the discrepancy between LLMs' different abilities: to answer in a QA task and to select evidence for their responses.
