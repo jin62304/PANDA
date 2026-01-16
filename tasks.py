@@ -234,7 +234,7 @@ class Evaluator:
             self.rouge_metric = ROUGEScore()
 
     def ovs_eval(self, tagged_u, tagged_pred):
-        eps = 0.1
+        eps = 0.5
         hyper_k = 1.0
 
         u_count = Counter(tagged_u)
